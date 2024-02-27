@@ -1,12 +1,11 @@
 {
   "name": "editorjs-inlinelist",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "editorjs-inline-list plugin that allows you to add nested list using inline",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "repository": "https://github.com/osain-az/editorjs-inline-list",
-
   "exports": {
     ".": {
       "import": "./dist/index.mjs",
@@ -39,6 +38,5 @@
   },
   "dependencies": {
     "@editorjs/editorjs": "^2.29.0"
-
   }
 }
