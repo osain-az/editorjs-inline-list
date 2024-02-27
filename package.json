@@ -1,0 +1,42 @@
+{
+  "name": "editorjs-inlinelist",
+  "version": "1.0.0",
+  "description": "editorjs-inline-list plugin that allows you to add nested list using inline",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.umd.js"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "release": "npm run build && changeset publish",
+    "init-changes": "npx changeset",
+    "lint": "tsc"
+  },
+  "keywords": [
+    "editorjs",
+    "editorjs list",
+    "editorjs list",
+    "editorjs-inline-tool",
+    "comment",
+    "codex editor",
+    "editor.js"
+  ],
+  "author": "Azibodusi osain",
+  "license": "MIT",
+  "devDependencies": {
+    "@changesets/cli": "^2.27.1",
+    "@types/node": "^20.11.19",
+    "tsup": "^8.0.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@editorjs/editorjs": "^2.29.0"
+
+  }
+}
