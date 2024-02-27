@@ -29,7 +29,7 @@
     "codex editor",
     "editor.js"
   ],
-  "author": "Azibodusi osain",
+  "author": "Azibodusi Osain",
   "license": "MIT",
   "devDependencies": {
     "@changesets/cli": "^2.27.1",
